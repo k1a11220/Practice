@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        숫자1: <input type="number" id="number1">
+    </p>
+    <p>
+        숫자2: <input type="number" id="number2">
+    </p>
+    <button id="result-button">결과보기</button>
+
+    <script>
+        var resultButton = document.getElementById('result-button');
+
+        resultButton.onclick = function() {
+            var number1 = document.getElementById('number1').value;
+            var number2 = document.getElementById('number2').value;
+
+
+            if (Number(number1) > Number(number2)) {
+                alert('숫자1이 숫자2보다 큽니다!');
+            }
+        };
+    </script>
+</body>
+</html>

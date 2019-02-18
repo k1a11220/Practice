@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button id="my-button">버튼</button>
+
+    <script>
+        var myButton = document.getElementById('my-button');
+        myButton.onclick = function() {
+            document.body.innerHTML = '안녕 설리번';
+        }
+    </script>
+</body>
+</html>

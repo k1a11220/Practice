@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#logobar {
+    text-align: center;
+}
+
+.navbar {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -50%;
+}
+
+.navbar > li {
+    padding: 10px;
+    float: left;
+    position: relative;
+    left: 50%;
+    background-color: #cccfff;
+}
+
+.navbar :hover {
+    background-color: #cccfff;
+}
+
+.article {
+    background-color: #cccfff;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}

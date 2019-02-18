@@ -1,0 +1,59 @@
+            .red {
+                background-color: rgb(207, 20, 43);
+                width: 1800px;
+                height: 460px;
+                display: inline-block;
+                position: relative;
+                margin-left: -10px;
+                z-index: 1;
+            }
+            .white {
+                background-color: rgb(255, 255, 255);
+                width: 1800px;
+                height: 140px;
+                display: inline-block;
+                position: relative;
+                z-index: 2;
+            }
+            .blue {
+                background-color: rgba(0, 42, 143);
+                width: 1800px;
+                height: 130px;  
+                margin-left: -10px;
+                display: inline-block;
+                position: relative;
+                z-index: 3;
+            }
+            .white2 {
+                background-color: white;
+                width: 1800px;
+                height: 10px;  
+                margin-left: 100px;
+                display: inline-block;
+                position: relative;
+                z-index: 4;
+            }
+            .circle {
+                background-color: white;
+                width: 300px;
+                height: 300px;
+                border-radius: 150px;
+                display: inline-block;
+                position: relative;
+                bottom:520px;
+                left:200px; 
+                z-index: 5;
+            }
+            img {
+                display: block;
+                position: relative;
+                margin-left: 250px;
+                margin-top: -785px;
+                z-index: 6;
+            }
+            img:hover {
+                transition-property: all;
+                transition-duration: 1s;
+                transform: rotate(36000deg);
+            }
+        
