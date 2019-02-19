@@ -22,7 +22,7 @@ const calculator = {
     }
 }*/
 
-const title = document.querySelector("#title");
+/*const title = document.querySelector("#title");
 
 const BASE_COLOR = "rgb(52, 12, 32)";
 const OTHER_COLOR = "#123d23";
@@ -38,7 +38,21 @@ function handleOnClick() {
 
 function init() {
     title.style.color = BASE_COLOR;
-    title.addEventListener("onclick", handleOnClick);
+    title.addEventListener("click", handleOnClick);
 }
 
+init();*/
+
+const title = document.querySelector("#title");
+
+const CLICKED_CLASS = "clicked";
+
+function handleClick() {
+    const hasClass = title.classList.contains(CLICKED_CLASS);
+    title.classList.toggle(CLICKED_CLASS);
+}
+
+function init() {
+    title.addEventListener("click", handleClick);
+}
 init();
