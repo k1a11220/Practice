@@ -21,12 +21,10 @@ function askForName() {
     form.addEventListener("submit", handleSubmit)
 }
 
-
-
 function paintGreeting(text) {
     form.classList.remove(SHOWING_CN);
     greeting.classList.add(SHOWING_CN);
-    greeting.innerText = `안녕하세요 ${text}씨!`;
+    greeting.innerText = `${text}씨 정신차려요!`;
 }
 
 function loadName() {
